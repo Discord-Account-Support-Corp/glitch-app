@@ -1,9 +1,9 @@
 {
-  "name": "GitHub PWA App",
-  "short_name": "PWAApp",
-  "start_url": ".",
+  "name": "Glitch Dashboard PWA",
+  "short_name": "GlitchDashboard",
+  "start_url": "https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#317EFB",
   "theme_color": "#317EFB",
   "icons": [
     {
