@@ -3,27 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My GitHub PWA</title>
+  <title>Redirecting to Glitch...</title>
 
-  <!-- Manifest for PWA -->
   <link rel="manifest" href="manifest.json" />
-
-  <!-- Theme color -->
   <meta name="theme-color" content="#317EFB" />
-
-  <!-- Favicon -->
   <link rel="icon" href="icons/icon-192.png" />
 </head>
 <body>
-  <h1>Hello from my GitHub-hosted PWA!</h1>
-  <p>You can install this app and use it offline.</p>
+  <p>Redirecting to Glitch Dashboard...</p>
 
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log("✅ Service Worker registered!"))
-        .catch(err => console.error("❌ Service Worker failed:", err));
-    }
+    // Redirect to Glitch
+    window.location.href = "https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=";
   </script>
 </body>
 </html>
