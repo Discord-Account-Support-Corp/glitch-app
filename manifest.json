@@ -1,10 +1,10 @@
 {
-  "name": "Glitch Dashboard PWA",
-  "short_name": "GlitchDashboard",
-  "start_url": "https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=",
+  "name": "Glitch Workspace",
+  "short_name": "Glitch",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#317EFB",
-  "theme_color": "#317EFB",
+  "background_color": "#ffffff",
+  "theme_color": "#00f",
   "icons": [
     {
       "src": "icons/icon-192.png",
