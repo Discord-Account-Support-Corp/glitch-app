@@ -5,20 +5,22 @@
   <title>Glitch Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- PWA Manifest -->
+  <!-- PWA Setup -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#00f" />
-
-  <!-- iOS PWA Support -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
 </head>
-<body>
-  <p>Redirecting to your Glitch dashboard...</p>
+<body style="font-family:sans-serif;text-align:center;margin-top:20vh;">
+
+  <h2>Redirecting you to Glitch Dashboard...</h2>
+  <p>If you're not redirected in a few seconds, <a id="fallbackLink" href="https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=">click here</a>.</p>
 
   <script>
-    window.location.href = "https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=";
+    setTimeout(() => {
+      window.location.href = "https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=";
+    }, 3000); // Delay to let the user read the link
   </script>
 </body>
 </html>
